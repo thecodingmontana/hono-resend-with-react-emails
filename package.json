@@ -27,7 +27,8 @@
     "lint": "biome lint .",
     "lint:fix": "biome lint --fix .",
     "format": "biome format --write .",
-    "check": "biome check --fix . && tsc --noEmit"
+    "check": "biome check --fix . && tsc --noEmit",
+    "prepare": "husky"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.5",
