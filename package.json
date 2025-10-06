@@ -1,6 +1,25 @@
 {
   "name": "hono-resend-with-react-emails",
+  "version": "1.0.0",
+  "description": "This example shows how to use Resend with Hono + React Email",
+  "keywords": [
+    "hono",
+    "api",
+    "resend",
+    "react-email"
+  ],
+  "homepage": "https://github.com/thecodingmontana/hono-resend-with-react-emails#readme",
+  "bugs": {
+    "url": "https://github.com/thecodingmontana/hono-resend-with-react-emails/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingmontana/hono-resend-with-react-emails.git"
+  },
+  "license": "MIT",
+  "author": "codewithmontana",
   "type": "module",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
