@@ -6,15 +6,12 @@
     "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "lib": [
-      "ESNext"
-    ],
-    "types": [
-      "node"
-    ],
+    "lib": ["ESNext"],
+    "types": ["node"],
     "jsx": "react-jsx",
     "jsxImportSource": "react",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "strictNullChecks": true
   },
   "exclude": ["node_modules"]
 }

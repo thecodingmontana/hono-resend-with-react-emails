@@ -1,8 +1,8 @@
-import { Hono } from "hono"
-import mailRoute from "./mail"
+import { Hono } from "hono";
+import mailRoute from "./mail";
 
-const routes = new Hono()
+const routes = new Hono();
 
-routes.route("/mail", mailRoute)
+routes.route("/mail", mailRoute);
 
-export default routes
+export default routes;
